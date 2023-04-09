@@ -1,0 +1,363 @@
+.di{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #caafa8;
+}
+.text{
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+.bgcolor{
+    background-color: #caafa8;
+}
+.bcolor{
+    background-color: azure;
+}
+.tcolor{
+    color: azure;
+}
+.tbg{
+    background-color:white;
+}
+
+.tcolorp{
+    color:#caafa8;
+}
+.top{
+   height: 23px;
+}
+td > a{
+    margin-left: 157px;
+    text-decoration: none;
+    color: azure;
+    font-family: 'Montserrat';
+    font-size: 11px;
+
+}
+#dropdown2{
+    width: 100%;
+    display: none;
+    background-color: #caafa8;
+    color: white;
+    height: 300px;
+}
+h1{
+font-family: "Incosolata", Consolas, monospace;
+font-size: 4em;
+color:white;
+}
+.typewriter{
+position: relative;
+}
+
+
+.typewriter::after{
+content: '! ';
+position: absolute;
+right: 0;
+color:#caafa8;
+background-color: #caafa8;
+width: 100%;
+animation: typing 2s steps(14) alternate infinite,
+    line infinite;
+}
+@keyframes typing{
+    to{
+        width: 0%;
+    }
+}
+@keyframes line {
+    50%{
+        color: transparent;
+    }
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display:flex; 
+    flex-direction:column;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.ul{
+    list-style-type: none;
+
+    margin-left: 208px;
+    
+    padding-bottom: 86px;
+}
+.row {
+    display: flex;
+    
+}
+
+.col1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner {
+    
+    background: url('../img/main/main.jpeg');
+    background-size: 1519px;
+    height:940px;
+    display: flex;   
+    align-items: flex-end;
+    color: white;
+}
+.b{
+    display: inline;
+    font-size:15px;
+    border:7px solid white;
+    background-color: white;
+}
+.mid{
+    background-color:rgb(253, 249, 245);
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#dropdown{
+width: 100%;
+display: none;
+background-color: #caafa8;
+color: white;
+height: 300px;
+}
+#dropdown3{
+    width: 100%;
+    display: none;
+    background-color: #caafa8;
+    color: white;
+
+}
+
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: rgb(253, 249, 245);
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  background-color:#f0dfdb;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.login{
+    width: 33%;
+    height: 471px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+@media only screen and (max-width:900px) {
+    .im{
+        display: none;
+    }
+    .top{
+        height: 40px;
+    }
+
+    .ul{
+        list-style-type: none;
+        margin-left:20px;
+    }
+    .banner {
+        background: url(../img/main/ko.jpeg) ;
+        background-size: 700px;
+        display: flex;   
+        align-items: flex-end;
+        color: white;
+    }
+    .vi{
+        width: 483px;
+        height:450px;  
+    }
+    td > a{
+        margin-left: 9px;
+        text-decoration: none;
+        color: azure;
+        font-family: 'Montserrat';
+        font-size: 9px;
+        word-wrap: break-word;
+    }
+    .login{
+        width: 70%;
+        height: 471px;
+        text-align: center;
+    }
+
+    
+  }
+
+  
+.label{
+    margin-top: 39px;
+    margin-bottom: 16px;
+}
+.sub{
+    width: 100%;
+    background: white;
+    color: #caafa8;
+    margin: 11px 0;
+    border: none;
+    border-radius: -4px;
+    cursor: pointer;
+}
+input[type=email],
+input[type=text],
+input[type=file],
+input[type=password]{
+  caret-color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.ik {
+    caret-color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    display: block;
+    background-color: transparent;
+  }
+.card {
+            
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+    border: none;
+    box-shadow: none;
+}
+
+.price {
+    color:azure;
+    font-size: 13px;
+    font-family: 'Montserrat';
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 4%;
+    color:#caafa8;
+    background-color:azure;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+}
+.pro{
+    border: none;
+    outline: 0;
+    padding: 4%;
+    color: #caafa8;
+    background-color: azure;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+}
+
+.card img{
+        max-width: 100%;
+        transition: all 0.1s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        transform: scale(1);
+}
+.card img:hover {
+    /* -ms-transform: scale(1.0);
+    -webkit-transform: scale(1.0); */
+    transform: scale(1.1);
+    /* opacity: 0.5; */
+}
+
+.card button:hover {
+    opacity: 0.5;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid azure;
+    border-radius:50px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+    color:azure;
+}
+.page-btn span:hover {
+    background-color:azure;
+    color:#caafa8;
+}
+.ji{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 63px;
+}
+
+
+#lblCartCount {
+    font-size: 9px;
+    background: #dcd4fb;
+    border-radius: 10px;
+    height: 18px;
+}
